@@ -11,6 +11,7 @@
 		5A2A38A52B90D35500ABD003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A38A42B90D35500ABD003 /* ContentView.swift */; };
 		5A2A38A72B90D35800ABD003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A38A62B90D35800ABD003 /* Assets.xcassets */; };
 		5A2A38AA2B90D35800ABD003 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A38A92B90D35800ABD003 /* Preview Assets.xcassets */; };
+		5A2A38B12B90D64300ABD003 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A38B02B90D64300ABD003 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5A2A38A42B90D35500ABD003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A2A38A62B90D35800ABD003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A2A38A92B90D35800ABD003 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A2A38B02B90D64300ABD003 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				5A2A38A22B90D35500ABD003 /* GettingUserLocationApp.swift */,
 				5A2A38A42B90D35500ABD003 /* ContentView.swift */,
+				5A2A38B02B90D64300ABD003 /* LocationManager.swift */,
 				5A2A38A62B90D35800ABD003 /* Assets.xcassets */,
 				5A2A38A82B90D35800ABD003 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				5A2A38A52B90D35500ABD003 /* ContentView.swift in Sources */,
 				5A2A38A32B90D35500ABD003 /* GettingUserLocationApp.swift in Sources */,
+				5A2A38B12B90D64300ABD003 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +276,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GettingUserLocation/Preview Content\"";
+				DEVELOPMENT_TEAM = J43673834C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your app needs access to your location to provide location-based services.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,8 +306,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GettingUserLocation/Preview Content\"";
+				DEVELOPMENT_TEAM = J43673834C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your app needs access to your location to provide location-based services.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
